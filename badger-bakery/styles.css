@@ -7,9 +7,13 @@ table, th, td {
 }
 
 .primary-button {
-
+  background-color: khaki;
+  border: 2px dashed;
+  padding: 2cap;
 }
 
 .secondary-button {
-
+  background-color: palegreen;
+  color: red;
+  padding: 1cap;
 }

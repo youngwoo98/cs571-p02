@@ -85,7 +85,7 @@ That's all for your HTML, JS, and CSS code!
 
 This last step requires the use of [Postman](https://www.postman.com/). A 5-digit secret code has been placed at https://cs571.org/s23/hw2/api/test. Use Postman to perform a `GET` request to https://cs571.org/s23/hw2/api/test to reveal the secret 5-digit code. You will need to use your unique bid (found in your email) as a X-CS571-ID header to reveal the secret code. Modify this README.md so that ##### is replaced by the secret code.
 
-**5-Digit Secret Code:** #####
+**5-Digit Secret Code:** 12345
 
 *If you did not recieve a unique ID, contact me no later than Monday at noon.*
 
@@ -119,15 +119,20 @@ Now that we have gathered the users' responses, we must make sense of them! Make
 
 Use affinity diagramming to construct categories about your users' experiences.  Refine your groupings iteratively until you have 3-5 categories. Include a screenshot of your affinity diagram below.
 
-**Insert your affinity diagram here!**
+![affinity diagram](figures/affinity_diagram.png)
 
 ### 3. Ideate
 
 Think big. Gaining inspiration from your affinity diagram, what could be changed about the Badger Bakery website? Remember to be creative and outrageous. These ideas don't have to be complete thoughts or sentences, go for quantity over quality (aim for 5-10 ideas). Include one *annotated* sketch of what Badger Bakery could look like.
 
-**Insert your ideation thoughts here!**
+1. general interface
+2. order page with more options
+3. delivery and contact banner
+4. group order
+5. increased traffic handler for specific season
+6. scheduling order
 
-**Insert your annotated sketch here!**
+![affinity diagram](figures/hw1_sketch.jpg)
 
 ### 4. Prototype
 
@@ -143,7 +148,9 @@ Design a task with its corresponding pass/fail criteria that tests the implement
 ChatBot Usability Test: Using the chatbot on Badger Bakery, order one dozen bagels to be delivered to your spouse's office on Monday morning. The task will be considered to be completed successfully if the user recieves confirmation that their order has been placed. The task will be considered to be failed if the user fails to schedule their delivery, or if they have to use mechanisms other than the chatbot to complete their order.
 ```
 
-**Insert your task and pass/fail criteria here!**
+```
+Order Scheduler Usability Test: Using the Order Scheduler on Badger Bakery, schedule an order for a box of dozen donuts on Monday morning. The task will be considered to be completed successfully if the user recieves confirmation that their order has been placed and the scheduled order is updated on the bakery monitor automatically without additional action needed. The task will be considered to be failed if the user fails to schedule their delivery, or if the employees have to check the scheduled order by them selves.
+```
 
 ### 6. Implement
 
